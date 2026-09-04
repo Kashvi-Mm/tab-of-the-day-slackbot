@@ -2,25 +2,25 @@
 
 A Slack bot that sends a random guitar tab or practice tip whenever you need something to work on.
 
-# Why I made this
+## Why I made this
 
 I love playing guitar, but I often lose motivation when I don't know what to practice, I end up just wasting time and loosing motivation instead of actually improving. I also prefer learning riffs over full songs since they're quicker and more fun for me. This bot solves that by just handing me something to practice right inside Slack where I'm already spend a lot of my time.
 
-## Commands
+### Commands
 
 - `/tab-of-the-day-ping` - check the bot's alive
 - `/tab-of-the-day-get` — get a random guitar tab
 - `/tab-of-the-day-tip` — get a random practice tip
 
-# Built with
+## Built with
 - Node.js
 - Slack Bolt for the Slack integration
 - Hosted 24/7 on Nest (running as a systemd service so it stays online even when my laptop is off)
 
-# How to test it
+## How to test it
 Add the bot to any channel with `/invite @tab-of-the-day`, type one of the commands above and hit enter. 
 
-# Setup (to run your own copy)
+## Setup (to run your own copy)
 1) Clone this repo
 2) Run npm install to get dependencies
 3) Create a Slack app at [api.slack.com/apps](api.slack.com/apps) and enable Socket Mode
