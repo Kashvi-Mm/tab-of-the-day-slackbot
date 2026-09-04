@@ -25,8 +25,8 @@ Add the bot to any channel with `/invite @tab-of-the-day`, type one of the comma
 2) Run npm install to get dependencies
 3) Create a Slack app at [api.slack.com/apps](api.slack.com/apps) and enable Socket Mode
 4) Create a .env file in the project root with:
-   `SLACK_BOT_TOKEN=xoxb-your-token-here
-   SLACK_APP_TOKEN=xapp-your-token-here`
+   `SLACK_BOT_TOKEN=xoxb-your-token-here`
+   `SLACK_APP_TOKEN=xapp-your-token-here`
 5) Run node index.js to start the bot locally
 6) Register the slash commands in your Slack app dashboard to match the ones in the code (they're listed above)
 
