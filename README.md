@@ -30,7 +30,7 @@ Add the bot to any channel with `/invite @tab-of-the-day`, type one of the comma
 5) Run node index.js to start the bot locally
 6) Register the slash commands in your Slack app dashboard to match the ones in the code (they're listed above)
 
-### What's next
+## What's next
 - Add more tabs to the library (maybe figure out how to integrate an api)
 - Can add a command that lets people suggest a tab to add
 - Add difficulty levels (beginner/intermediate) to the tabs to make it more personalizable
